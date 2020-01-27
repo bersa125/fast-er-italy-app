@@ -1,0 +1,1 @@
+Define the interaction on use case. Defines interfaces/functions related on how data have to be provided/manipulated (for example the login can provide a login function and an interface that defines actions related on its output)

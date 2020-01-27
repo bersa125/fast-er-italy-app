@@ -1,0 +1,1 @@
+Middleman between View and Model(Interactor). It must implement the actions correlated to the events and the functions related to the activities and that may influence the model and the view.

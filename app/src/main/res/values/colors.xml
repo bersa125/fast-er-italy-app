@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1917bb</color>
+    <color name="colorPrimaryDark">#0e0d69</color>
+    <color name="colorAccent">#808080</color>
+    <color name="colorPrimaryDarker">#191970</color>
+
+    <color name="semi_transparent">#66000000</color>
+    <color name="crimson">#D81B60</color>
+    <color name="blueviolet">#8A2BE2</color>
+    <color name="darkorange">#FF8C00</color>
+    <color name="lightseagreen">#20B2AA</color>
+    <color name="indingo">#4B0082</color>
+    <color name="olivedrab">#6B8E23</color>
+
+    <color name="maps_sea">#aadaff</color>
+
+    <color name="maps_sea_dark">#4db1ff</color>
+    <color name="maps_sea_darker">#005496</color>
+
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="red">#d81717</color>
+    <color name="yellow">#FFC300</color>
+    <color name="green"> #229113</color>
+
+</resources>

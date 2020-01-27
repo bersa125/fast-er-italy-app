@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDarker"
+    android:paddingBottom="1dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/white"
+    android:background="@color/colorPrimaryDarker"
+    android:paddingBottom="5dp">
+
+    <TextView android:id="@+id/vote_dialog_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/white"
+        android:paddingLeft="@dimen/activity_horizontal_margin_small"
+        android:paddingRight="@dimen/activity_horizontal_margin_small"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_selected_address"
+        android:textSize="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <View android:id="@+id/separator_dialog1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="@dimen/activity_horizontal_margin_small"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin_small"
+        app:layout_constraintTop_toBottomOf="@+id/vote_dialog_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"/>
+
+    <GridLayout
+        android:id="@+id/grid_layout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/separator_dialog1"
+        android:columnCount="1"
+        android:rowCount="2"
+        android:orientation="horizontal"
+        android:layout_marginVertical="@dimen/activity_vertical_margin"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin">
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_goneMarginBottom="5dp"
+            android:paddingHorizontal="10dp"
+            android:columnCount="5"
+            android:rowCount="1"
+            android:orientation="horizontal"
+            android:layout_marginVertical="@dimen/activity_vertical_margin"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin">
+            <Button android:id="@+id/update_button"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#008efb"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/call_update"/>
+            <View
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                />
+            <Button android:id="@+id/delete_button"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:background="#008efb"
+                android:text="@string/delete"/>
+            <View
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                />
+            <Button android:id="@+id/cancel_button"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#008efb"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/cancel"/>
+        </GridLayout>
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

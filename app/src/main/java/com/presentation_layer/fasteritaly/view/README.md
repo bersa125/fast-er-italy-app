@@ -1,0 +1,1 @@
+Views are interfaces related to the components that define what events have to be handled on user interaction.

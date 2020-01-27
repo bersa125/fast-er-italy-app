@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/drawer_group_user"
+        android:checkableBehavior="single"
+        android:title="@string/user_options">
+        <menu>
+            <item
+                android:id="@+id/account_drawer"
+                android:icon="@drawable/menu_address"
+                android:title="@string/menu_addresses" />
+            <item
+                android:id="@+id/settings_drawer"
+                android:icon="@drawable/icon_options"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/history_drawer"
+                android:icon="@drawable/menu_history"
+                android:title="@string/history_menu" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/drawer_group_exit"
+        android:checkableBehavior="single"
+        android:title="@string/session_options">
+        <menu>
+            <item
+                android:id="@+id/disconnect_drawer"
+                android:icon="@drawable/icon_disconnect"
+                android:title="@string/menu_disconnect" />
+            <item
+                android:id="@+id/quit_drawer"
+                android:icon="@drawable/icon_exit"
+                android:title="@string/menu_quit" />
+        </menu>
+    </item>
+
+</menu>

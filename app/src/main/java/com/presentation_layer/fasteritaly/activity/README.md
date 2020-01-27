@@ -1,0 +1,1 @@
+Each Activity implements the correlated View and initializes its Presenter with the respective Interactor. Utilizes the presenter when needed in the activity default functions.
